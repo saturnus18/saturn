@@ -1,17 +1,5 @@
 $(document).ready(function(){
-  $(window).scroll(function () {
-        if ($(this).scrollTop() > 0) {
-            $('#toTop').fadeIn();
-        } else {
-            $('#toTop').fadeOut();
-        }
-    });
-  $('#toTop').click(function () {
-        $('body,html').animate({
-            scrollTop: 0
-        }, 400);
-        return false;
-    });
+  
   /*var navLink = $('.navbar-nav a').on('click', function(e) {
     e.preventDefault();
     navLink.not(this).removeClass('active');
